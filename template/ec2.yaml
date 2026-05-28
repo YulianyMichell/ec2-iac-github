@@ -14,7 +14,7 @@ Parameters:
 
 Resources:
 
-  MyInstanceClase:
+  MyEc2Github:
     Type: AWS::EC2::Instance
     Properties:
       AvailabilityZone: us-east-1a
@@ -55,4 +55,4 @@ Resources:
 Outputs:
 
   InstanceId:
-    Value: !Ref MyEC2New
+    Value: !Ref MyEc2Github
